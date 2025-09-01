@@ -25,7 +25,7 @@ import plotly.express as px
 # In[3]:
 
 
-base = pd.read_csv('./titanic/train.csv')
+base = pd.read_csv('./Lista03/titanic/train.csv')
 
 # **Você também pode carregar seu arquivo e já selecionar as colunas que desejar... investigue esta função**
 

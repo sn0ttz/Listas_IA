@@ -19,7 +19,7 @@ from sklearn.tree import DecisionTreeClassifier
 
 
 import pickle
-with open('./Titanic.pkl', 'rb') as f:
+with open('./Lista03/Titanic.pkl', 'rb') as f:
   X_treino, X_teste, y_treino, y_teste = pickle.load(f)
 
 # In[60]:
